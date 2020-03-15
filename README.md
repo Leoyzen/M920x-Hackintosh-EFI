@@ -4,11 +4,11 @@ Hackintosh Opencore EFIs for M920x
 # 机器配置
 
 * Lenovo M920x
-* CPU: i7-9700T
+* CPU: i7-9700T 2.0GHz
 * Motherboard: Q370
 * BIOS: [M1UKT50A](https://pcsupport.lenovo.com/jp/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m920x/downloads/ds503907)
 * GPU: UHD 630/AMD Radeon RX560 4G
-* Mem: Lenovo 8G*2
+* Mem: Lenovo 8G * 2
 * NVMe: SN750
 * Wifi/Bluetooth: 1820A (08PKF4)
 
@@ -17,23 +17,23 @@ Hackintosh Opencore EFIs for M920x
 * Opencore：0.5.6 offcial
 * MacOS: Catalina 10.15.3
 * CFG Lock：已解锁
-* 变频：理论上应该是正常的
+* 变频： 正常
 * 硬解
   * H264：正常
   * H265：正常
-  * 4k HDR 解码：QuickTime 播放正常，集显、核显都有负载；IINA 有卡顿，原因未知
-* 睡眠：不正常，会睡死，原因未知
+* 睡眠： 正常
 * 显卡
   * RX560
     * AGPM：正常
     * Metal：正常
     * mini-dp*4 接口：正常
   * UHD 630
-    * 接口：主板两个接口(HDMI/DP)不可用 
+    * 接口：主板两个接口(HDMI/DP)不可用（插入会死机) 
 * Wifi/蓝牙：正常
 * Handoff：正常
+* sidecar: 正常
 * 内置音频：正常
-* USB：已映射，正常显示 5Gbps 和电流
+* USB：已映射，正常显示 5Gbps 和电流;蓝牙已内建
 * NVMe：已内建
 
 # 已知问题

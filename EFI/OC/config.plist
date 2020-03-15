@@ -183,6 +183,8 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>WLAN</string>
+				<key>brcmfx-country</key>
+				<string>#a</string>
 				<key>compatible</key>
 				<string>pci14e4,4331</string>
 				<key>device_type</key>
@@ -196,15 +198,15 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key></key>
-				<data></data>
 				<key>AAPL,ig-platform-id</key>
 				<data>AwCYPg==</data>
+				<key>device-id</key>
+				<data>mD4AAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
-				<key>Layout-id</key>
-				<data>Fw==</data>
+				<key>alc-layout-id</key>
+				<data>EQAAAA==</data>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -587,7 +589,7 @@
 			<key>ShowPicker</key>
 			<false/>
 			<key>TakeoffDelay</key>
-			<integer>10000</integer>
+			<integer>1000</integer>
 			<key>Timeout</key>
 			<integer>3</integer>
 		</dict>
@@ -600,7 +602,7 @@
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
 			<key>Target</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
@@ -613,7 +615,7 @@
 			<key>AuthRestart</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>3</integer>
+			<integer>11</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>Vault</key>
@@ -683,7 +685,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>brcmfx-country=#a keepsyms=1 debug=0x100 agdpmod=pikera  alcid=17 bpr_probedelay=100 bpr_initialdelay=300 bpr_postresetdelay=300</string>
+				<string>keepsyms=1 debug=0x100 agdpmod=pikera  bpr_probedelay=100 bpr_initialdelay=300 bpr_postresetdelay=300</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>nvda_drv</key>
@@ -790,7 +792,7 @@
 			<key>PlayChime</key>
 			<true/>
 			<key>VolumeAmplifier</key>
-			<integer>0</integer>
+			<integer>1000</integer>
 		</dict>
 		<key>Input</key>
 		<dict>
@@ -832,7 +834,7 @@
 			<key>ReplaceTabWithSpace</key>
 			<false/>
 			<key>SanitiseClearScreen</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Protocols</key>
 		<dict>
